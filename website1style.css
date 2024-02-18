@@ -1,0 +1,258 @@
+* {
+    margin: 0;
+    padding: 0; 
+
+}
+
+html{
+    scroll-behavior: smooth;
+
+}
+
+body {
+    font-family: 'Mandalore', sans-serif;
+    font-size: 0.5rem;
+    color: white;
+}
+
+.wav-designs-logo:hover {
+    cursor: pointer;
+}
+
+.wav-designs-logo {
+    position: relative;
+    left: 5%;
+}
+
+ul {
+    font-family: 'Mandalore', sans-serif;
+}
+
+p {
+    color:rgb(59, 154, 158);
+}
+
+a, .button {
+    transition: all 800ms ease-in-out;
+}
+
+nav, .navigation-and-links {
+    display: flex
+}
+
+nav {
+    justify-content: space-around;
+    align-items: center;
+    height: 15vh;
+}
+
+.navigation-and-links {
+    gap: 2rem;
+    list-style: none;
+    font-size: 1.2rem;
+    margin-top: 5%;
+    margin-left: 55%;
+}
+
+a {
+    color: rgb(255, 255, 255);
+    text-decoration: currentColor;
+}
+
+a:hover {
+    text-decoration-line: underline;
+    text-underline-offset: 0.2rem;
+    text-transform: uppercase;
+}
+
+.section-persona {
+    margin: auto;
+    display: flex;
+    /* justify-content: right; */
+    /* align-self: right; */
+    /* float: right; */
+    width: 12cm;
+    height: 12cm; 
+    position:relative;
+    top: 50%;
+    right:-23%;
+    padding-top: 6%;
+    animation-name: slidefromright; 
+    animation-duration: 2s;
+    animation-timing-function: ease-in-out;
+}
+
+.homepage-text {
+    position:absolute;
+    justify-content: center;
+    top: 40%;
+    left: 5%;
+    transform: translate(50%,50%);
+    /* align-self: center;
+    text-align: left; */
+    animation-name: slidefromleft;
+    animation-duration: 2s;
+    animation-timing-function: ease-in-out;
+}
+
+.wavdesignstext:hover {
+    cursor: pointer;
+    text-transform: uppercase;
+}
+
+.wavdesignstext {
+    font-size: 1000%;
+}
+
+.wavdesignp {
+    font-size: 400%;
+}
+
+.wavdesignsubp {
+    font-size: 200%;
+    padding-top: 1.6%;
+    /* font-style: oblique; */
+}
+
+@keyframes slidefromleft {
+    from {
+        transform: translateX(-400px);
+        margin-top: 5%;
+    }
+    to {
+        padding-top: 5.3%;
+        /* transform: translateY(900%); */
+        transform: translateX(168px);
+    }
+}
+
+@keyframes slidefromright {
+    from {
+        transform: translateX(400px);
+    }
+    to {
+        transform: translateX(0);
+    }
+}
+
+
+/* .wavpersona {
+    animation-name: slidefromright; 
+    animation-duration: 2sec;
+    animation-timing-function: ;
+    animation-iteration-count: ;
+
+} */
+
+/* .section-persona::before {
+    content: url(crypngBW.png);
+    display: block;
+    width: 12cm;
+    height: 12cm;
+} */
+
+.fb-button {
+    position: absolute;
+    bottom: 16.9%;
+    right: 72.7%;
+    font-family: 'Mandalore', sans-serif;
+    /* display: flex;
+    justify-content: center; */
+}
+
+.discord-button {
+    position: absolute;
+    bottom: 17%;
+    right: 64%;
+    gap: 10%;
+    font-family: 'Mandalore', sans-serif;
+    /* display: flex;
+    justify-content: center; */
+}
+
+.fb-button:hover,.discord-button:hover {
+    cursor: pointer;
+}
+
+/* .fb-button {
+    box-sizing: border-box;
+    margin: 0% auto;
+    padding: 2px;
+    width: 8%;
+    background: #fff;
+    border-radius: 4px;
+} */
+
+.fb-button {
+    display: block; 
+    box-sizing: border-box; 
+    margin: 0 auto; 
+    padding: 4px; 
+    width: 20%; 
+    max-width: 100px; 
+    background: #fff; 
+    background: rgba(52, 48, 120, 0); 
+    border-radius: 20px; color: #fff; 
+    text-align: center; 
+    text-decoration: none; 
+    letter-spacing: 1px; 
+}
+
+.discord-button {
+    display: block; 
+    box-sizing: border-box; 
+    margin: 0 auto; 
+    padding: 4px; 
+    width: 20%; 
+    max-width: 100px; 
+    background: #fff; 
+    background: rgba(52, 48, 120, 0); 
+    border-radius: 20px; color: #fff; 
+    text-align: center; 
+    text-decoration: none; 
+    letter-spacing: 1px; 
+}
+
+.concrete-pillar {
+    position: absolute;
+    margin-right: 80%;
+    bottom: -25%;
+    right: -13%;  
+    filter: brightness(70%);
+    filter: contrast(70%);  
+}
+
+.featured {
+    position: absolute;
+    text-align: center;
+    top: 125%;
+    right: 30%;
+    left: 27%;
+    font-size: 500%;
+}
+
+.graphic-1 {
+    position:absolute;
+    padding-top: 12%;
+    left: 27.5%;
+}
+
+/* .graphic-1:hover {
+    filter: blur(20);
+} */
+
+.graphic-2 {
+    position:absolute;
+    padding-top: 20.8%;
+    left: 0.5%;
+}
+
+.graphic-3 {
+    position:absolute;
+    padding-top: 20%;
+    left: 69%;
+}
+
+.graphic-1.graphic-2.graphic-3::-webkit-scrollbar {
+    
+}
